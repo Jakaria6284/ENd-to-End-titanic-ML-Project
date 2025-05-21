@@ -6,7 +6,7 @@ COPY Backend ./Backend
 COPY ML ./ML
 COPY requirement.txt .
 
-RUN pip install --no-cache-dir -r requirement.txt
+RUN pip install --no-cache-dir -r requirements.txt
 
 EXPOSE 8000
 
